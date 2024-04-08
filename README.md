@@ -53,3 +53,9 @@ To serve the site on a development machine, bypassing several security measures,
 ```bash
 python manage.py runserver --settings func_sig_registry.settings_dev
 ```
+
+## Usage via docker compose
+
+Install docker compose (tested with v2.25.0)
+
+Then run `docker compose up`. This will start the server in development mode which you can view at http://localhost:8000/.
